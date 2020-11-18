@@ -1,0 +1,132 @@
+
+/*edit navBar*/
+li, a{
+    
+    color: black;
+    
+    margin-left: 125px;
+    
+    float: left;
+    
+    padding-left: auto;
+    padding-right: auto;
+     
+    text-decoration: none;
+    
+    text-align: center;
+    
+    font-size: 25px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    align-content: center;
+    left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBar_links {
+    list-style: none;
+}
+
+.navBar_links li {
+    display: inline-block;
+}
+
+.navBar_links li a:hover {
+    color: darkgrey;
+}
+
+
+/*header edit*/
+h1{
+    color: black;
+    
+    text-align: center;
+    
+    font-family: 'Montserrat', sans-serif, 200;
+}
+
+/*paragraph edit*/
+p{
+    color: black;
+    
+    margin-top: 490px;
+    margin-bottom: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    text-align: center;
+    
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+/*edit to hyper link*/
+a:link{
+        color:aliceblue;
+}
+
+/*setup of the website*/
+body{
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+/*position image 1*/
+.alignImage1{
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+    left: 160px;
+    /*float: left;
+    margin-left: 0px 0px 30px;*/
+    width:25%;
+    padding: 0px;
+    
+}
+
+/*position image 2*/
+.alignImage2{
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    left: 470px;
+    width:23%;
+    padding: 0px;
+    
+}
+
+/*position image 3*/
+.alignImage3{
+    display: flex;
+    margin-top: 83px;
+    position: absolute;
+    left: 700px;
+    /*float: left;
+    margin-left: 0px 0px 30px;*/
+    width:33%;
+    padding: 0px;
+    
+}
+
+/*edit to the images*/
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doublespace{
+    line-height: 2;
+}
+
+/*div{
+    padding-left: 180px;
+    padding-top: 150px;
+    z-index:-1;
+    position: fixed;
+}*/
