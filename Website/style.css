@@ -124,6 +124,17 @@ img{
     line-height: 2;
 }
 
+#sketch-holder{
+    position: absolute;
+    z-index:-1;
+}
+
+canvas{
+    display: block;
+    margin-top: 435px;
+}
+
+
 /*div{
     padding-left: 180px;
     padding-top: 150px;
