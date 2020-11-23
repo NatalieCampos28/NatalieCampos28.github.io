@@ -28,6 +28,6 @@ function draw(){
     fill(0);
     textSize(30);
     textFont('Georgia');
-    text("A Little Bit About Me!", startX, 435);
+    text("A Little Bit About Me!", startX, 65);
     
 }
